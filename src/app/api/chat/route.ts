@@ -14,4 +14,4 @@ export const POST = baserun.trace(async (req) => {
   })
   const stream = OpenAIStream(response)
   return new StreamingTextResponse(stream)
-}, 'chat route')
+}, 'chat route') as any

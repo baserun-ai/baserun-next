@@ -643,32 +643,10 @@ base-64@^0.1.0:
   resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
   integrity sha512-Y5gU45svrR5tI2Vt/X9GPd3L0HNIKzGu202EjxrXMpuc2V2CiKgemAbUUsqYmZJvPtCXoUKjNZwBJzsNScUbXA==
 
-baserun@/Users/timsuchanek/code/baserun-js/baserun-2.0.2-alpha.1.tgz:
-  version "2.0.2-alpha.1"
-  resolved "/Users/timsuchanek/code/baserun-js/baserun-2.0.2-alpha.1.tgz#976a3df1b7351fcf6c05ecbabd95bafe2a53b0c9"
-  dependencies:
-    "@grpc/grpc-js" "^1.9.9"
-    "@protobuf-ts/plugin" "^2.9.1"
-    "@types/debug" "^4.1.12"
-    debug "^4.3.4"
-    fast-glob "^3.3.2"
-    globby "^14.0.0"
-    google-protobuf "^3.21.2"
-    ignore "5.2.4"
-    import-meta-resolve "^4.0.0"
-    isomorphic-unfetch "^4.0.2"
-    json-stringify-safe "^5.0.1"
-    openai "^4.19.1"
-    pkg-dir "^8.0.0"
-    promise-retry "^2.0.1"
-    resolve "^1.22.8"
-    resolve-pkg "^2.0.0"
-    slash "^5.1.0"
-    uuid "^9.0.0"
-
-"baserun@file:../baserun-js/baserun-2.0.1.tgz":
+baserun@^2.0.1:
   version "2.0.1"
-  resolved "file:../baserun-js/baserun-2.0.1.tgz#cdcf08975e3096d29362fbbd80b16de105ffd8cf"
+  resolved "https://registry.yarnpkg.com/baserun/-/baserun-2.0.1.tgz#b1e3b854b508fc2f048278e11de087cc25357437"
+  integrity sha512-vsYuFudqsmFya7Pblg8WHRWiDNYYcYNVgMgLZQElqxP6DIw+XmQwVF1ALs++VPFXx0rTyvRviO9+uAqoffKXIQ==
   dependencies:
     "@grpc/grpc-js" "^1.9.9"
     "@protobuf-ts/plugin" "^2.9.1"
