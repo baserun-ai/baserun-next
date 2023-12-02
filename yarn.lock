@@ -643,10 +643,10 @@ base-64@^0.1.0:
   resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
   integrity sha512-Y5gU45svrR5tI2Vt/X9GPd3L0HNIKzGu202EjxrXMpuc2V2CiKgemAbUUsqYmZJvPtCXoUKjNZwBJzsNScUbXA==
 
-baserun@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/baserun/-/baserun-2.0.1.tgz#b1e3b854b508fc2f048278e11de087cc25357437"
-  integrity sha512-vsYuFudqsmFya7Pblg8WHRWiDNYYcYNVgMgLZQElqxP6DIw+XmQwVF1ALs++VPFXx0rTyvRviO9+uAqoffKXIQ==
+baserun@2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/baserun/-/baserun-2.0.2.tgz#a0eb70e0bfe4452f3e672b4167087073f638a90e"
+  integrity sha512-ZUT4+YcqO0dEkDGyQF/WOZ1azFyoI69YHOgPeKsa4m00gzUQMzsRuE3M5w89mCBApYzPO9UvH0n0VbR8CzRzLg==
   dependencies:
     "@grpc/grpc-js" "^1.9.9"
     "@protobuf-ts/plugin" "^2.9.1"

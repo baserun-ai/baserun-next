@@ -4,7 +4,7 @@ import { baserun } from 'baserun'
 
 const openai = new OpenAI()
 
-const sessionId = 'eae6749f-3282-4de1-92f9-15a29d12d3b2'
+// const sessionId = 'eae6749f-3282-4de1-92f9-15a29d12d3b2'
 
 export const POST = async (req: any) => {
   const { data } = await baserun.session({
@@ -21,7 +21,7 @@ export const POST = async (req: any) => {
         return new StreamingTextResponse(stream)
       }, 'chat route')()
     },
-    sessionId,
+    // sessionId,
     user: 'alice@bob.com',
   })
 
