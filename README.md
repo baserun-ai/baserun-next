@@ -1,3 +1,5 @@
+# Baserun Next.js example
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -14,5 +16,5 @@ pnpm dev
 bun dev
 ```
 
-This show-cases how to trace Baserun together with Next.js.
+This show-cases how to trace [Baserun](https://baserun.ai/) together with Next.js.
 You can [read the docs](https://docs.baserun.ai/monitoring/tracing-with-nextjs) to learn more about how to use this.
