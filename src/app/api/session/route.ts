@@ -7,8 +7,9 @@ const openai = new OpenAI()
 // const sessionId = 'eae6749f-3282-4de1-92f9-15a29d12d3b2'
 
 export const POST = async (req: any) => {
-  const { data } = await baserun.session({
-    session() {
+  await baserun.init()
+
+  const { data } = await baserun.session(async () => {
       return baserun.trace(async () => {
         const { messages } = await req.json()
         const response = await openai.chat.completions.create({
@@ -20,7 +21,7 @@ export const POST = async (req: any) => {
         const stream = OpenAIStream(response)
         return new StreamingTextResponse(stream)
       }, 'chat route')()
-    },
+    }, {
     // sessionId,
     user: 'alice@bob.com',
   })
